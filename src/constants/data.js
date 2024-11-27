@@ -1,82 +1,82 @@
 import images from './images';
 
-const wines = [
+const eventServices = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Wedding Planning',
+    price: 'Starting at $3000',
+    tags: 'Venue | Catering | Floral Design',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Corporate Events',
+    price: 'Starting at $2500',
+    tags: 'Presentations | Networking | Snacks',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Birthday Parties',
+    price: 'Starting at $1500',
+    tags: 'Decor | Cake | Entertainment',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Anniversary Celebrations',
+    price: 'Starting at $1800',
+    tags: 'Customized Themes | Photography | Catering',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Charity Galas',
+    price: 'Starting at $5000',
+    tags: 'Formal Setup | Live Auction | Entertainment',
   },
 ];
 
-const cocktails = [
+const addOns = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'DJ and Music',
+    price: '$800',
+    tags: 'Sound System | Playlist | Host',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Photo Booth',
+    price: '$500',
+    tags: 'Custom Backdrops | Instant Prints',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Thematic Decor',
+    price: '$1000',
+    tags: 'Custom Themes | Stage Setup',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Live Performers',
+    price: '$1200',
+    tags: 'Musicians | Dancers | Artists',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Catering Upgrades',
+    price: 'Varies',
+    tags: 'Gourmet Menus | Premium Desserts | Beverages',
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Best Event Planner 2023',
+    subtitle: 'Recognized for excellence in event management and design.',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Customer Choice Award',
+    subtitle: 'Voted as the most preferred event planner by clients.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Innovative Designs',
+    subtitle: 'Awarded for creative and unique event concepts.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Excellence in Execution',
+    subtitle: 'Celebrated for flawless event execution and attention to detail.',
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { eventServices, addOns, awards };

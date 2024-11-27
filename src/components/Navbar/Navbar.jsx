@@ -20,15 +20,15 @@ const Navbar = () => {
         <ul className="app__navbar-links">
           <li className="p_opensans"><a href="#home">Home</a></li>
           <li className="p_opensans"><a href="#about">About</a></li>
-          <li className="p_opensans"><a href="#menu">Menu</a></li>
-          <li className="p_opensans"><a href="#awards">Awards</a></li>
-          <li className="p_opensans"><a href="#contact">Contact</a></li>
+          <li className="p_opensans"><a href="#menu">Event</a></li>
+          <li className="p_opensans"><a href="#awards">Laurels</a></li>
+          <li className="p_opensans"><a href="#contact">Locate us</a></li>
         </ul>
 
         <div className="app__navbar-login">
-          <a href="#login0" className='p_opensans'>Log In / Register</a>
+          <a href="/" className='p_opensans'>Log In / Register</a>
           <div />
-          <a href="/" className='p_opensans'>Book Table</a>
+     
 
         </div>
 

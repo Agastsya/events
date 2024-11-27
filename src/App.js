@@ -1,22 +1,17 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import Login from './components/Authenticate/Login';
 import { Navbar } from './components';
 import './App.css';
 
 const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />
-  </div>
+  <Router>
+    <Routes>
+
+      <Route path="/login" element={<Login />} />
+    </Routes>
+  </Router>
 );
 
 export default App;

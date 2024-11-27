@@ -12,30 +12,36 @@ const Chef = () => (
     </div>
 
     <div className="app__wrapper_info">
-      <SubHeading title={"Chef’s Word"}/>
+      <SubHeading title={"Event Word"}/>
 
       <h1 className="headtext__cormorant">
-        What We Believe In
+      Taylor Swift: The Eras Tour 
       </h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src ={images.quote} alt='quote'/>
           <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit. 
+          Genres: Country, Pop, Alternative, International | Language: English | Age: 5yrs+ | Duration: 4hrs
           </p>
         </div>
         <p className="p__opensans">
-          auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.
+        Experience the magic of Taylor Swift's groundbreaking The Eras Tour at your local cinema with this spectacular worldwide broadcast of her sold-out concert.**  
+
+Join Taylor as she takes you on a journey through her extraordinary career, performing hits from every era of her music, including Love Story, You Belong With Me, Shake It Off, Blank Space, All Too Well (10-Minute Version), and Anti-Hero.  
+
+The show is a visual and emotional spectacle, featuring dazzling stage designs, intricate choreography, stunning costumes, and breathtaking special effects that bring each of Taylor's musical eras to life in an unforgettable way.  
+
+This beautifully-filmed feature presentation will be directed by the renowned and visionary filmmaker, providing fans with a front-row seat to one of the most iconic tours in music history.
           </p>
+        
       </div>
 
       <div className="app__chef-sign">
-        <p>Kevin Luo</p>
+        <p>Taylor Swift</p>
         <p className="p__opensans">
-          Chef & Founder
+          Singer
         </p>
-        <img src={images.sign} alt='sign' />
       </div>
     </div>
   </div>
