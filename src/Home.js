@@ -1,28 +1,27 @@
+import { Navbar } from "./components";
+import {
+  AboutUs,
+  Chef,
+  FindUs,
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpecialMenu,
+} from "./container";
+
 const Home = () => (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Header />
-              <AboutUs />
-              <SpecialMenu />
-              <Chef />
-              <Intro />
-              <Laurels />
-              <Gallery />
-              <FindUs />
-            </>
-          }
-        />
-        
-        <Route path="/login" element={<Login />} />
-      </Routes>
-      <Footer />
-    </Router>
-  );
+  <>
+    <Navbar />
+    <Header />
+    <AboutUs />
+    <SpecialMenu />
+    <Chef />
+    <Intro />
+    <Laurels />
+    <Gallery />
+    <FindUs />
+  </>
+);
 
 export default Home;
-  
